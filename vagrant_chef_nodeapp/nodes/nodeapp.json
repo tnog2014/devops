@@ -1,0 +1,9 @@
+{
+  "run_list": [
+	"recipe[git]",
+	"recipe[nodeapp]"
+  ],
+  "automatic": {
+    "ipaddress": "nodeapp"
+  }
+}
