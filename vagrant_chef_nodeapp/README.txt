@@ -1,3 +1,12 @@
+# Vagrantによる仮想マシン起動
+vagrant up
+
+# 仮想マシン停止
+vagrant halt
+
+# 仮想マシン削除
+vagrant destroy
+
 # 実行方法
 knife solo cook nodeapp
 
